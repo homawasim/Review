@@ -1,0 +1,12 @@
+.container {
+    background-color: aqua;
+}
+
+.img-container {
+
+    border-radius: 50%;
+}
+
+.prev-btn {
+    border: blueviolet;
+}

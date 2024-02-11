@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylessheet" href="styles.css" />
+    <link rel="stylessheet" href="./fontawesome-free-5.12.0-web/css/all.min.css" />
+</head>
+
+<body>
+    <main>
+        <section class="container" style="
+            
+            font-size: 15px;
+            height:100%;
+            
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+
+            <div class="title">
+                <h2 style="
+                display: flex;
+                justify-content: center;
+                font-size: 40px;">Our Reviews</h2>
+                <div class="underline"></div>
+            </div>
+            <article class="review" style="
+            background-color: rgb(236, 241, 241);
+            margin-left:  10%;
+            margin-right: 10%;
+            border: black;">
+                <div class="img-container" style="
+                display: grid;
+                justify-content: center;
+               
+                ">
+                    <img src="data:image/jpeg;base64,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"
+                        id="person-img" alt="" style="
+                        border-radius: 50%;
+                        size:30px;" />
+
+                </div>
+                <h4 id="author" style="
+                
+                margin-left: 47%;">Sara khan</h4>
+                <p id="job" style="margin-left: 45%;
+                margin-top: 2px;
+                color: rgb(96, 96, 230);">graphic designer</p>
+                <p id="info" style="
+                margin-left: 20px;">sara khan is a architect who gained fame after designing the iconic Nike Swoosh for
+                    their
+                    logo. Nike itself is a brand that needs no introduction, and being its logo designer was a privilege
+                    that this female cherished forever. Designing the Nike logo dates back to 1971, and since then, it’s
+                    been a symbol of prestige for the renowned brand.</p>
+                <div class="button-container" style="
+                display: flex;
+                align-items: center;
+                margin-left: 50%;
+                margin-top: 20px;
+                ;
+                ">
+                    <button class="prev-btn" style="
+                    margin-right: 15px;
+                    border-color: blue;
+                    box-shadow: 20px;
+                    background-color: rgb(36, 210, 102);">
+                        <i class="fas fa-chevron-left"></i>
+                        Prev</button>
+                    <button class="next-btn" style="
+                    margin-right: 15px;
+                    border-color: blue;
+                    
+                    
+                    background-color: rgb(39, 190, 97);">
+                        <i class="fas fa-chevron-right"></i>
+                        Next</button>
+                </div>
+                <button class="random-btn"
+                    style="
+                margin-left: 48%;
+                margin-top: 20px;
+                background-color: brown;
+                color: aliceblue;
+                font-size: larger;
+            border-radius: 9%;
+            border-color: rgb(20, 232, 232);
+            
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                    Surprise
+                    me</button>
+            </article>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
